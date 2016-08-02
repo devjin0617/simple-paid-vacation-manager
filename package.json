@@ -4,6 +4,7 @@
   "description": "this is simple manager of paid vacation",
   "main": "index.js",
   "scripts": {
+    "start" : "webpack-dev-server --hot --host 0.0.0.0",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
