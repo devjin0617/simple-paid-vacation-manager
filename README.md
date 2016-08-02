@@ -15,3 +15,5 @@ npm dependencies install of package in project directory
 path/to/simple-paid-vacation-manager$ npm install
 ```
 
+# reference
+- <https://velopert.com/reactjs-tutorials>
