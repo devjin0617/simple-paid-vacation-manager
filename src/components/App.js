@@ -1,16 +1,18 @@
 import React from 'react';
 
 import 'materialize-loader';
-import 'materialize-css/bin/materialize';
+import 'materialize-css/dist/js/materialize.min';
 
 import Navbar from './Navbar';
+import SideNav from './SideNav';
 
 class App extends React.Component {
     render() {
         return (
             <div>
                 <Navbar />
-                <button className="waves-effect waves-light btn light-blue darken-4">hello</button>
+                <SideNav />
+                <button className="waves-effect waves-light btn light-blue darken-4"><i className="material-icons left">cloud</i>hello</button>
                 <h1>Hello React Application</h1>
             </div>
         );
