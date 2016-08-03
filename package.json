@@ -18,9 +18,13 @@
   },
   "homepage": "https://github.com/devjin0617/simple-paid-vacation-manager#readme",
   "dependencies": {
+    "css-loader": "^0.23.1",
+    "materialize-loader": "^1.1.0",
+    "node-sass": "^3.8.0",
     "react": "^15.3.0",
     "react-dom": "^15.3.0",
-    "materialize-loader": "^1.1.0"
+    "sass-loader": "^4.0.0",
+    "style-loader": "^0.13.1"
   },
   "devDependencies": {
     "babel-core": "^6.11.4",
