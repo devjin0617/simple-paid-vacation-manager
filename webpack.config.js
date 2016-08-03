@@ -1,5 +1,8 @@
 module.exports = {
-    entry : './src/index.js',
+    entry : [
+        'materialize-loader!./webpack/materialize.config.js',
+        './src/index.js'
+    ],
 
     output : {
         path : __dirname + '/public/',
