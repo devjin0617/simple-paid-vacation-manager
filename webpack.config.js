@@ -1,3 +1,5 @@
+const webpack = require('webpack');
+
 module.exports = {
     entry : [
         'materialize-loader!./webpack/materialize.config.js',

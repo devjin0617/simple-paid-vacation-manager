@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/App';
 
-import 'materialize-loader'
+import 'jquery';
+import 'materialize-loader';
 
 
 const rootElement = document.getElementById('root');
