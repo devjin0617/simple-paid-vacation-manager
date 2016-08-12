@@ -18,7 +18,6 @@ class SideNav extends React.Component {
                     <li><a className="subheader">Subheader</a></li>
                     <li><a className="waves-effect" href="#!">Third Link With Waves</a></li>
                 </ul>
-                <a href="#" data-activates="slide-out" className="button-collapse"><i className="material-icons">menu</i></a>
             </div>
         );
     }
