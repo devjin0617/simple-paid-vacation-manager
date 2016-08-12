@@ -4,7 +4,7 @@ class Navbar extends React.Component {
 
     componentDidMount() {
 
-        //$('.left-menu').sideNav();
+        $('.left-menu').sideNav();
     }
 
 
