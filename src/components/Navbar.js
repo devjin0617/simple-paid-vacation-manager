@@ -1,14 +1,23 @@
 import React from 'react';
 
 class Navbar extends React.Component {
+
+    componentDidMount() {
+
+        //$('.left-menu').sideNav();
+    }
+
+
     render() {
         return (
             <nav>
                 <div className="nav-wrapper  blue-grey darken-3">
-                    <div>
-                        <i className="material-icons left">menu</i>
-                        <a href="#" className="brand-logo">vacation</a>
-                    </div>
+                    <ul className="left hide-on-med-and-down">
+                        <li><a className="left-menu" href="sass.html"><i className="material-icons left">menu</i></a></li>
+                        <li>
+                            <a href="#" className="brand-logo">vacation</a>
+                        </li>
+                    </ul>
 
 
                     <ul id="nav-mobile" className="right hide-on-med-and-down">
