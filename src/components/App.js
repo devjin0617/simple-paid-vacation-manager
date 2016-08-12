@@ -6,6 +6,7 @@ import 'materialize-css/dist/js/materialize.min';
 import Navbar from './Navbar';
 import SideNav from './SideNav';
 import MainContainer from './MainContainer';
+import FloattingButton from './FloattingButton';
 
 class App extends React.Component {
     render() {
@@ -14,6 +15,7 @@ class App extends React.Component {
                 <Navbar />
                 <SideNav />
                 <MainContainer />
+                <FloattingButton />
             </div>
         );
     }
