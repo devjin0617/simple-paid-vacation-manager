@@ -10,7 +10,8 @@ import 'materialize-css/dist/js/materialize.min';
 import {
     Navbar,
     SideNav,
-    MainContainer
+    MainContainer,
+    Footer
 } from './layout';
 
 import {
@@ -21,10 +22,15 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <Navbar />
-                <SideNav />
-                <MainContainer />
-                <FloattingButton />
+                <header>
+                    <Navbar />
+                    <SideNav />
+                </header>
+                <main>
+                    <MainContainer />
+                    <FloattingButton />
+                </main>
+                <Footer />
             </div>
         );
     }
