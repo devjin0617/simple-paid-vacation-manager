@@ -20,6 +20,7 @@
   "homepage": "https://github.com/devjin0617/simple-paid-vacation-manager#readme",
   "dependencies": {
     "css-loader": "^0.23.1",
+    "firebase": "^3.3.0",
     "jquery": "^3.1.0",
     "materialize-loader": "^1.1.0",
     "node-sass": "^3.8.0",
