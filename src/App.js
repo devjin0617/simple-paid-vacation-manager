@@ -6,17 +6,19 @@ import 'materialize-css/dist/js/materialize.min';
 //import Navbar from './layout/Navbar';
 //import SideNav from './layout/SideNav';
 //import MainContainer from './layout/MainContainer';
+//import FloattingButton from './button/FloattingButton';
+//import Footer from './layout/Footer';
 
 import {
     Navbar,
     SideNav,
     MainContainer,
     Footer
-} from './layout';
+} from './components/layout';
 
 import {
     FloattingButton
-} from './button';
+} from './components/button';
 
 class App extends React.Component {
     render() {
