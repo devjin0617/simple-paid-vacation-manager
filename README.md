@@ -3,6 +3,12 @@ this is simple manager of paid vacation
 
 # first isntall
 
+update to npm v3.x
+
+```
+terminal$ sudo npm update npm -g
+```
+
 global package install to `babel`, `webpack` and `webpack-dev-server`
 
 ```shell
