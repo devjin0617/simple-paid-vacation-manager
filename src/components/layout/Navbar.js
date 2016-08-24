@@ -23,9 +23,8 @@ class Navbar extends React.Component {
 
 
                         <ul id="nav-mobile" className="right hide-on-med-and-down">
-                            <li><a href="#" className="waves-effect waves-light">1st</a></li>
-                            <li><a href="#" className="waves-effect waves-light">2nd</a></li>
-                            <li><a href="#" className="waves-effect waves-light">3rd</a></li>
+                            <li><a href="#" className="waves-effect waves-light">설정</a></li>
+                            <li><a href="#" className="waves-effect waves-light">로그아웃</a></li>
                         </ul>
                     </div>
                 </nav>
