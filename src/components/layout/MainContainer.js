@@ -1,6 +1,6 @@
 import React from 'react';
 
-import VacationListView from './../VacationListView';
+import VacationListView from './../list/VacationListView';
 
 import Title from './Title';
 
