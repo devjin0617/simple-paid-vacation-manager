@@ -1,6 +1,8 @@
 import React from 'react';
 
-import VacationCell from './cell/VacationCell';
+import {
+    VacationCell
+} from './cell';
 
 class VacationListView extends React.Component {
 
