@@ -13,7 +13,7 @@ class Navbar extends React.Component {
         return (
             <div className="navbar-fixed">
                 <nav>
-                    <div className="nav-wrapper  blue-grey darken-3">
+                    <div className="nav-wrapper">
                         <ul className="left hide-on-med-and-down">
                             <li><a className="left-menu" data-activates="slide-out" href="sass.html"><i className="material-icons left">menu</i></a></li>
                             <li>

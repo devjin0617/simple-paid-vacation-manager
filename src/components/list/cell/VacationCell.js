@@ -12,7 +12,7 @@ class VacationCell extends React.Component {
                 <br/>
                 자유로운 영혼이 되기 위해 휴가신청
             </p>
-            <a href="#!" className="secondary-content"><i className="material-icons blue-grey-text darken-3">grade</i></a>
+            <a href="#!" className="secondary-content"><i className="material-icons blue-grey-text text-darken-3">grade</i></a>
         </li>
         )
     }
